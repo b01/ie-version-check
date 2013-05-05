@@ -10,7 +10,7 @@
 *
 * @example:
 *	checkForIE();
-*	if ( window.ie.version < 10 ) { ... }
+*	if ( window.ie !== null && window.ie.version < 10 ) { ... }
 *
 * @author Khalifah Shabazz <http://www.kshabazz.net/>
 */
