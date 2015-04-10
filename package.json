@@ -1,0 +1,18 @@
+{
+    "author": {
+        "name": "Khalifah Khalil Shabazz",
+        "url": "http://www.kshabazz.net/"
+    },
+    "description": "A JavaScript method which will allow you to determine which version if IE a client is using.",
+    "directories": {
+        "lib": "src"
+    },
+    "license": "MIT",
+    "main": "./src/ieVersionCheck.js",
+    "name": "kshabazz-ie-version-check",
+    "respository": {
+        "type": "git",
+        "url": "https://github.com/b01/ie-version-check"
+    },
+    "version": "0.0.1"
+}
