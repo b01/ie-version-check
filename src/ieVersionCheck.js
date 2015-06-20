@@ -108,7 +108,7 @@ function IEVersionCheck()
 }
 
 // Export node module.
-if ( typeof module !== 'undefined' && module.exports )
+if ( typeof module !== 'undefined' && module.hasOwnProperty('exports') )
 {
 	module.exports = IEVersionCheck;
 }
